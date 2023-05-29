@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-9 left-1/2 -translate-x-1/2 bg-ijo flex justify-between w-[95vw] rounded-xl px-12 py-6 shadow-2xl">
+    <div className="fixed top-9 left-1/2 z-50 -translate-x-1/2 bg-ijo flex justify-between w-[95vw] rounded-xl px-12 py-6 shadow-2xl">
       <div className="flex">
         <button>
           <Image src="/logo_setengah.svg" width={71} height={64} alt="logo" />

@@ -1,8 +1,9 @@
-"use client";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import HowItWorks from "@/components/HowItWorks";
 import Image from "next/image";
+import Action from "@/components/Action";
+import Download from "@/components/Download";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
+      <Action />
+      <Download />
     </section>
   );
 }
