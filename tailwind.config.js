@@ -14,6 +14,10 @@ module.exports = {
         sans: ["var(--font-poppins)"],
         krifon: ["var(--font-krifon)"],
       },
+      colors: {
+        ijo: "#2C3427",
+        krem: "#D7C6AA",
+      },
     },
   },
   plugins: [],
