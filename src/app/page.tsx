@@ -4,6 +4,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Image from "next/image";
 import Action from "@/components/Action";
 import Download from "@/components/Download";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <Action />
+      <Pricing />
       <Download />
     </section>
   );
