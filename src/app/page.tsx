@@ -5,6 +5,7 @@ import Image from "next/image";
 import Action from "@/components/Action";
 import Download from "@/components/Download";
 import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <Action />
+      <Pricing />
       <Download />
       <Footer />
     </section>

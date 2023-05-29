@@ -23,7 +23,7 @@ const Action = () => {
             fill="#FFFCFC"
           />
         </svg>
-        <div className="w-full h-full absolute bg-black/40 group-hover:bg-transparent transition duration-500"></div>
+        <div className="w-full h-full absolute rounded-lg bg-black/40 group-hover:bg-transparent transition duration-500"></div>
 
         <Image
           src="/actions.png"
